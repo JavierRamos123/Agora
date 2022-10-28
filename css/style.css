@@ -1,26 +1,27 @@
-body {
+#loginBody {
     background-image: url("../img/fondoLogin.png");
 }
 /*Apartado para el css del Login*/
 #cajaLogin {
-    background-color: rgba(1, 159, 250, 0.582);
-    min-width: 100px;
-    margin-top: 200px;
-    margin-left: 800px;
+    background-color: rgba(1, 213, 250, 0.582);
+    min-width: 6%;
+    margin-top: 12%;
+    margin-left: 43%;
     padding: 3%;
     text-align: center;
     border-radius: 5%;
     display: inline-block;
     vertical-align: middle;
 }
+
 #cabeceraLogin{
     color: aliceblue;
     font-family: "Arial Black";
 }
 #userLogin, #userPassword {
   min-width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 7% 12%;
+  margin: 1%;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -28,8 +29,29 @@ body {
 }
 
 #button {
-    padding: 10px;
+    padding: 5%;
     font-family: "Arial";
+}
+  
+#footerLogin{
+    margin-top: 20%;
+    background-color: rgba(162, 104, 238, 0.548);
+    padding: 3%;
+}
+
+#footer-links a{
+    text-decoration: none;
+    font-family: "Arial Black";
+    margin-left: 5%;
+    color: rgba(59, 58, 58, 0.856);
+}
+
+#footer-links a:hover{
+    color: cyan;
+}
+
+#footer-links{
+    margin-left: 30%;
 }
 
 
