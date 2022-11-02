@@ -178,10 +178,6 @@ body {
     text-align: center;
 }
 
-body {
-    margin: 0;
-}
-
 /*barra de navegación*/
 /*Iconos cesta y persona*/
 #cesta-nav{
@@ -406,5 +402,97 @@ ul.topnav li.right {
 
     .izquierda{
         height:200px;
+    }
+}
+
+/* Página Sobre Nosotros */
+
+.tituloSN{
+    color: #6d1cd6;
+}
+
+.contenedorSN{
+    text-align: center;
+    background-image: linear-gradient(#42d3e9, #ba84ff);
+}
+
+.cabeceraSN{
+    padding-top: 60px;
+    color: black;
+    font-size: 20px;
+    margin: auto;
+    line-height: 50px;
+}
+
+.sub-contenedorSN{
+    max-width: 1200px;
+    margin: auto;
+    padding: 48px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.equiposSN{
+    margin: 10px;
+    padding: 22px;
+    max-width: 30%;
+    cursor:pointer;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+
+.equiposSN:hover{
+    background-color: #42d3e9;
+    border-radius: 10px;
+}
+
+.imagenSN{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.nombreSN{
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.puestoSN{
+    color: rgb(179, 5, 202);
+    font-weight: bold;
+}
+
+.textoSN{
+    margin:20px 0;
+    font-weight: lighter;
+    color: rgb(243, 235, 247);
+}
+
+.social-linksSN{
+    margin: 14px;
+    position:relative;
+    bottom: 0;
+}
+
+.social-linksSN a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    transition: .4s;
+}
+
+.social-linksSN a:hover{
+    transform: scale(1.5);
+}
+
+.social-linksSN a i{
+    color:#00000056;
+}
+
+@media screen and (max-width: 600px){
+    .equiposSN{
+        max-width: 100%;
     }
 }
