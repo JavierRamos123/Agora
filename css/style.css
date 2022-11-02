@@ -15,6 +15,51 @@ body {
     margin-top: 0%;
 }
 
+/*Productos*/
+
+#productos {
+    display: flex;
+}
+
+#producto1 {
+    width: 15%;
+    margin-left: 5%;
+}
+
+#tituloProducto1 {
+    margin-left: 10%;
+}
+
+#producto2 {
+    width: 15%;
+    margin-left: 8%;
+    border-radius: 2%;
+}
+
+#tituloProducto2 {
+    margin-left: 17%;
+}
+
+#producto3 {
+    width: 15%;
+    margin-left: 8%;
+    border-radius: 2%;
+}
+
+#tituloProducto3 {
+    margin-left: 14%;
+}
+
+#producto4 {
+    width: 15%;
+    margin-left: 8%;
+    border-radius: 2%;
+}
+
+#tituloProducto4 {
+    margin-left: 14%;
+}
+
 /*h4 de la página index*/
 #promocion {
     text-align: center;
@@ -108,7 +153,9 @@ ul.topnav li.right {
     padding: 5%;
     font-family: "Arial";
 }
-  
+
+/*Footer*/
+
 #footerLogin{
     margin-top: 20%;
     background-color: rgba(162, 104, 238, 0.548);
@@ -127,7 +174,7 @@ ul.topnav li.right {
 }
 
 #footer-links{
-    margin-left: 30%;
+    margin-left: 24%;
 }
 
 
