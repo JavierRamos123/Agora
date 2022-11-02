@@ -125,12 +125,13 @@ body {
     width: 22%;
     margin-left: 10%;
     border-radius: 2%;
-    margin-top: 4%;
+    margin-top: 6%;
 }
 
 #tituloProducto8 {
     margin-left: 11%;
     margin-top: 2%;
+    margin-bottom: 0%;
 }
 
 
@@ -141,12 +142,13 @@ body {
     width: 20%;
     margin-left: 8%;
     border-radius: 2%;
-    margin-top: 4%;
+    margin-top: 6%;
 }
 
 #tituloProducto9 {
     margin-left: 8%;
     margin-top: 2%;
+    margin-bottom: 0%;
 }
 
 
@@ -154,28 +156,15 @@ body {
     width: 20%;
     margin-left: 8%;
     border-radius: 2%;
-    margin-top: 4%;
+    margin-top: 6%;
 }
 
 #tituloProducto10 {
     margin-left: 11%;
     margin-top: 2%;
+    margin-bottom: 0%;
 }
 
-
-
-
-#producto7 {
-    width: 20%;
-    margin-left: 8%;
-    border-radius: 2%;
-    margin-top: 4%;
-}
-
-#tituloProducto7 {
-    margin-left: 11%;
-    margin-top: 2%;
-}
 
 /*h4 de la página index*/
 #promocion {
@@ -194,11 +183,13 @@ body {
 }
 
 /*barra de navegación*/
+/*Iconos cesta y persona*/
 #cesta-nav{
     float: right;
-    
+    cursor: pointer;
 }
 
+/*Links de la navbar*/
 ul.topnav {
     list-style-type: none;
     margin: 0;
