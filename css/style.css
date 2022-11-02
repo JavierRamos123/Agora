@@ -14,6 +14,12 @@ body {
     margin-top: 0%;
 }
 
+.bannerIndex2{
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+
 /*Productos*/
 
 #productos {
@@ -29,6 +35,9 @@ body {
     margin-left: 10%;
 }
 
+
+
+
 #producto2 {
     width: 15%;
     margin-left: 8%;
@@ -38,6 +47,9 @@ body {
 #tituloProducto2 {
     margin-left: 17%;
 }
+
+
+
 
 #producto3 {
     width: 15%;
@@ -49,6 +61,10 @@ body {
     margin-left: 14%;
 }
 
+
+
+
+
 #producto4 {
     width: 15%;
     margin-left: 8%;
@@ -57,6 +73,108 @@ body {
 
 #tituloProducto4 {
     margin-left: 14%;
+}
+
+
+
+#producto5 {
+    width: 20%;
+    margin-left: 11%;
+    border-radius: 2%;
+    margin-top: 4%;
+}
+
+#tituloProducto5 {
+    margin-left: 11%;
+    margin-top: 3%;
+}
+
+
+#producto6 {
+    width: 20%;
+    margin-left: 10%;
+    border-radius: 2%;
+    margin-top: 4%;
+}
+
+#tituloProducto6 {
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+
+
+#producto7 {
+    width: 20%;
+    margin-left: 8%;
+    border-radius: 2%;
+    margin-top: 4%;
+}
+
+#tituloProducto7 {
+    margin-left: 11%;
+    margin-top: 2%;
+}
+
+
+
+
+
+
+#producto8 {
+    width: 22%;
+    margin-left: 10%;
+    border-radius: 2%;
+    margin-top: 4%;
+}
+
+#tituloProducto8 {
+    margin-left: 11%;
+    margin-top: 2%;
+}
+
+
+
+
+
+#producto9 {
+    width: 20%;
+    margin-left: 8%;
+    border-radius: 2%;
+    margin-top: 4%;
+}
+
+#tituloProducto9 {
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+
+#producto10 {
+    width: 20%;
+    margin-left: 8%;
+    border-radius: 2%;
+    margin-top: 4%;
+}
+
+#tituloProducto10 {
+    margin-left: 11%;
+    margin-top: 2%;
+}
+
+
+
+
+#producto7 {
+    width: 20%;
+    margin-left: 8%;
+    border-radius: 2%;
+    margin-top: 4%;
+}
+
+#tituloProducto7 {
+    margin-left: 11%;
+    margin-top: 2%;
 }
 
 /*h4 de la página index*/
