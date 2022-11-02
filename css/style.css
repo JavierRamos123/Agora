@@ -232,6 +232,10 @@ ul.topnav li.right {
 
 /*Apartado para el css del Login*/
 
+.loginForm{
+    height: 100vh;
+}
+
 #cajaLogin {
     background-color: rgba(1, 213, 250, 0.582);
     min-width: 6%;
@@ -266,7 +270,7 @@ ul.topnav li.right {
 /*Footer*/
 
 #footerLogin{
-    margin-top: 20%;
+    margin-top: 0;
     background-color: rgba(162, 104, 238, 0.548);
     padding: 3%;
 }
