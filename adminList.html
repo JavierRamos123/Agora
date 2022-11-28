@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/app.js"></script>
+    <title>AdminList</title>
+</head>
+<body>
+
+<ul class="topnav">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="productos.html">Productos</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+    <li><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
+    <li id="cesta-nav"><a href="">🛒</a></li>
+    <li id="cesta-nav"><a onclick=emojiLogin()>🙋🏻</a></li>
+    <li id="cesta-nav"><a class="active" onclick=adminPage()>🛠️</a></li>
+</ul>
+
+            <H1>Página de adminitración</H1>
+
+            <H2>Listado de productos</H2>
+
+            <form action="adminList.html" method="post">
+                <table class="adminTable">
+                    <tr>
+                        <td>Producto</td>
+                        <td>Precio</td>
+                        <td>Stock</td>
+                        <td>Proveedor</td>
+                        <td>Gastos de envío</td>
+                        <td>En oferta</td>
+                        <td>Mostrar en tienda</td>
+                    </tr>
+                    <tr>
+                        <td>🧦Calcetines🧦</td>
+                    </tr>
+                    <tr>
+                        <td>Calcetines Nike hombre</td>
+                        <td>12€</td>
+                        <td>23</td>
+                        <td>Nike España</td>
+                        <td>1.23€</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>Calcetines Nike Mujer</td>
+                        <td>12€</td>
+                        <td>28</td>
+                        <td>Nike España</td>
+                        <td>1.23€</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>Calcetines Adidas hombre</td>
+                        <td>14€</td>
+                        <td>62</td>
+                        <td>Adidas España</td>
+                        <td>1.43€</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>Calcetines Adidas mujer</td>
+                        <td>14€</td>
+                        <td>25</td>
+                        <td>Adidas España</td>
+                        <td>1.43€</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>👟Sneakers👟</td>
+                    </tr>
+                    <tr>
+                        <td>Air Force One Blancas</td>
+                        <td>112€</td>
+                        <td>7</td>
+                        <td>AF España</td>
+                        <td>7.37€</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>Air Jordan 1 retro</td>
+                        <td>120€</td>
+                        <td>28</td>
+                        <td>AJ España</td>
+                        <td>9.28€</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>Nike Blazer</td>
+                        <td>94€</td>
+                        <td>12</td>
+                        <td>Nike España</td>
+                        <td>5.43€</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>Vans Negras</td>
+                        <td>79€</td>
+                        <td>28</td>
+                        <td>Vans España</td>
+                        <td>3.73€</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>Vans Amarillas</td>
+                        <td>79€</td>
+                        <td>25</td>
+                        <td>Vans España</td>
+                        <td>3.73€</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>Vans Azules</td>
+                        <td>75€</td>
+                        <td>12</td>
+                        <td>Vans España</td>
+                        <td>3.73€</td>
+                        <td>5%</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>Vans Estampado</td>
+                        <td>85€</td>
+                        <td>25</td>
+                        <td>Vans España</td>
+                        <td>3.73€</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>New Balance Blancas</td>
+                        <td>73€</td>
+                        <td>5</td>
+                        <td>NB España</td>
+                        <td>1.83€</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>New Balance azules</td>
+                        <td>63€</td>
+                        <td>26</td>
+                        <td>NB España</td>
+                        <td>1.83€</td>
+                        <td>10%</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>New Balance negro/rojo</td>
+                        <td>73€</td>
+                        <td>25</td>
+                        <td>NB España</td>
+                        <td>1.83€</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>🧢GORRAS🧢</td>
+                    </tr>
+                    <tr>
+                        <td>Gorra Not Really</td>
+                        <td>16€</td>
+                        <td>89</td>
+                        <td>NR España</td>
+                        <td>2.01€</td>
+                        <td>5%</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>Gorra Revolution76</td>
+                        <td>18€</td>
+                        <td>3</td>
+                        <td>Nike España</td>
+                        <td>2.67€</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>Gorra Los Ángeles California</td>
+                        <td>20€</td>
+                        <td>62</td>
+                        <td>LAC España</td>
+                        <td>3.27€</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>Gorra Pug</td>
+                        <td>17€</td>
+                        <td>3</td>
+                        <td>Pug España</td>
+                        <td>4.93€</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>Gorra Wonder</td>
+                        <td>21€</td>
+                        <td>7</td>
+                        <td>Wonder España</td>
+                        <td>2.73€</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                    </tr>
+                </table>
+
+                <button type="button" onclick=adminPage() style="margin-left:70%">Volver</button>
+            </form>
+</body>
+
+</html>

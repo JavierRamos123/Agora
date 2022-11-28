@@ -9,3 +9,10 @@ function emojiLogin() {
   function anclaZapas() {
     window.location.href = "productos.html";
   }
+
+  function adminPage(){
+    window.location.href = "adminPage.html";
+  }
+  function adminList(){
+    window.location.href = "adminList.html";
+  }

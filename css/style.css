@@ -476,3 +476,12 @@ ul.topnav li.right {
         max-width: 100%;
     }
 }
+
+.adminTable{
+    margin: 0px auto;
+}
+.adminTable, .adminTable td, .adminProduct, .adminProduct tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
