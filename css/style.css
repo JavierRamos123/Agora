@@ -12,21 +12,48 @@ body {
 
 /*Productos*/
 
-#productos2, #productos3-calcetines ,#productos4-zapatillas {
+
+#productos2 {
     display: grid;
     align-content: space-evenly;
     grid-template-columns: auto auto auto;
     gap: 10px;
     /*background-color: #2196F3;*/
     padding: 10px;
-  }
+}
+
+#productos3-calcetines, #productos4-zapatillas {
+    display: grid;
+    align-content: space-evenly;
+    grid-template-columns: auto;
+    gap: 10px;
+    /*background-color: #2196F3;*/
+    padding: 10px;
+}
+
+#productos4-zapatillas-imgs {
+    display: grid;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    /*background-color: #2196F3;*/
+    padding: 10px;
+}
   
-#productos2> div, #productos3-calcetines ,#productos4-zapatillas > div {
+#productos2 > div, #productos3-calcetines ,#productos4-zapatillas {
     /*background-color: rgba(255, 255, 255, 0.8);*/
     text-align: center;
     display: flex;
     justify-content: center;
     padding: 20px 0;
+}
+
+#productos4-zapatillas-imgs > div {
+        /*background-color: rgba(255, 255, 255, 0.8);*/
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
 }
 
 #productos2> div:hover,#productos3-calcetines> div:hover ,#productos4-zapatillas > div:hover {
@@ -36,14 +63,24 @@ body {
     cursor: pointer;
     box-sizing: border-box;
     transform: scale(1.1);
+}
 
+#productos3-calcetines> div:hover ,#productos4-zapatillas-imgs > div:hover {
+    background-color: #42d3e938;
+    border-radius: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+    box-sizing: border-box;
+    transform: scale(1.1);
 }
 
 #productos4-zapatillas {
     background-color: rgba(0, 73, 86, 0.411);
 }
 
-
+#productos4-zapatillas-imgs {
+    background-color: rgba(0, 73, 86, 0.411);
+}
 
 
 #productos {
